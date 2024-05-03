@@ -16,6 +16,7 @@ public class MainController extends Print {
 	
     // 여기에 로그인 중인 사용자 정보를 담는 용도
 	// String에는 테이블 행의 LEVEL을, Object에는 SQL문의 속성과 값을 넣음
+	// String에 들어가는 키값은 변경될 수 있음
 	static public Map<String, Object> sessionStorage = new HashMap<>();
 	
 	// 개발 완료됐을 때, 사용하지 않는 개발용 메시지들을 한꺼번에 비활성화하기 위한 용도
