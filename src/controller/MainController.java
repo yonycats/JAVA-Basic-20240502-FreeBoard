@@ -20,7 +20,7 @@ public class MainController extends Print {
 	static public Map<String, Object> sessionStorage = new HashMap<>();
 	
 	// 개발 완료됐을 때, 사용하지 않는 개발용 메시지들을 한꺼번에 비활성화하기 위한 용도
-	boolean debug = true;
+	boolean debug = true; 
 	FreeService freeService = FreeService.getInstance();
 
 	public static void main(String[] args) {
