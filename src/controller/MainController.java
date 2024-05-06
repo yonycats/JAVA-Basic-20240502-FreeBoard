@@ -55,6 +55,8 @@ public class MainController extends Print {
 		}
 	}
 
+	
+	
 	private View insert() {
 		if (debug)
 			System.out.println("========게시판 등록========");
@@ -77,6 +79,8 @@ public class MainController extends Print {
 		return View.FREEBOAD_LIST;
 	}
 
+	
+	
 	private View delete() {
 		if (debug)
 			System.out.println("========게시판 삭제========");
@@ -90,6 +94,8 @@ public class MainController extends Print {
 		return View.FREEBOAD_LIST;
 	}
 
+	
+	
 	private View update() {
 		if (debug)
 			System.out.println("========게시판 수정========");
@@ -97,6 +103,8 @@ public class MainController extends Print {
 		return View.FREEBOAD_DETAIL;
 	}
 
+	
+	
 	private View detail() {
 		if (debug)
 			System.out.println("========게시판 상세========");
@@ -124,6 +132,8 @@ public class MainController extends Print {
 		return View.HOME;
 	}
 
+	
+	
 	private View list() {
 		// 개발자의 개발을 위한 출력 메시지
 		// 개발이 완료된 후, 개발용 메시지들을 한꺼번에 비활성화하기 위한 debug 변수 사용
@@ -151,6 +161,8 @@ public class MainController extends Print {
 			return View.HOME;
 	}
 
+	
+	
 	private View home() {
 		if (debug)
 			System.out.println("=========게시판 홈========");
