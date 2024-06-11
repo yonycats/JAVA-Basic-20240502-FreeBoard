@@ -145,7 +145,7 @@ public class MainController extends Print {
 			System.out.println(map);
 		}
 
-		System.out.println("1. 게v시v 판 상세 조회");
+		System.out.println("1. 게시판 상세 조회");
 		System.out.println("2. 홈");
 
 		int sel = ScanUtil.menu();
